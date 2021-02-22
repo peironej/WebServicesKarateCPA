@@ -1,0 +1,22 @@
+12:05:00.552 karate.env system property was: null 
+12:05:00.560 request:
+1 > GET https://petstore.swagger.io/v2/pet/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_281)
+
+12:05:01.261 response time in milliseconds: 700,67
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 22 Feb 2021 15:05:00 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":4,"category":{"id":4,"name":"Dogs"},"name":"Dog","photoUrls":["https://cdn.pixabay.com/photo/2020/06/08/22/50/dog-5276317_960_720.png"],"tags":[{"id":4,"name":"RazaDelPerro"}],"status":"available"}
+
+12:05:01.264 [print] El ID de la mascota es:  4
+12:05:01.266 [print] El nombre de la mascota es:  Dog

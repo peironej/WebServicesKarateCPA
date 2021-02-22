@@ -1,0 +1,25 @@
+11:54:56.322 karate.env system property was: null 
+11:54:56.324 request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 237
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_281)
+{"id":4,"category":{"id":4,"name":"Perro"},"name":"Ovejero Aleman","photoUrls":["https://t2.ea.ltmcdn.com/es/images/7/0/0/alimentacion_de_un_pastor_aleman_cachorro_21007_orig.jpg"],"tags":[{"id":4,"name":"Ovejero"}],"status":"available"}
+
+11:54:57.035 response time in milliseconds: 710,80
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 22 Feb 2021 14:54:56 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+1 < Transfer-Encoding: chunked
+{"id":4,"category":{"id":4,"name":"Perro"},"name":"Ovejero Aleman","photoUrls":["https://t2.ea.ltmcdn.com/es/images/7/0/0/alimentacion_de_un_pastor_aleman_cachorro_21007_orig.jpg"],"tags":[{"id":4,"name":"Ovejero"}],"status":"available"}
+
+11:54:57.037 [print] El ID de la mascota es:  4
+11:54:57.039 [print] El nombre de la mascota ahora es:  Ovejero Aleman
