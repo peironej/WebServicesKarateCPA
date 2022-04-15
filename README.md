@@ -1,4 +1,4 @@
-# Ejercicio 2 - WebServices Karate CPA
+# WebServices Karate CPA
 
 
 Este CPA fue creado utilizando Karate Framework y Java.
